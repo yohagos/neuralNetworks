@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/uploads'
 
-model = load_model('cat_vs_dog_model5820.keras')
+model = load_model('cat_vs_dog_model.keras')
 
 CLASSES = ['Cat', 'Dog']
 
